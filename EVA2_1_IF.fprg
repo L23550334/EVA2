@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 05:23:15 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzE4OzIwMjMtMTAtMDk7MDU6MDc6MjEgcC4gbS47MjgzNQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzE4OzIwMjMtMTAtMDk7MDU6MjM6MTUgcC4gbS47MTsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Calificaci&#243;n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce la Calificaci&#243;n:&quot;" newline="True"/>
+            <input variable="Calificaci&#243;n"/>
+            <if expression="Calificaci&#243;n &gt;= 70">
+                <then>
+                    <output expression="&quot;Aprobado :)&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No Acreditado :(&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Vuelva Pronto&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
